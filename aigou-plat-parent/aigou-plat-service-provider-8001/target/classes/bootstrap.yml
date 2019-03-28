@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:1299 #配置服务器
+      label: master #分支
+      name: service_provider_application #github上面名称
+      profile: dev #环境 开发运行的时候不能写死,不然只有一个环境 不同的环境应该根据需求变化
+      #profile: ${spring.actives.profile} #根据这个参数来变化环境

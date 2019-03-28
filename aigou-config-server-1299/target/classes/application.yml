@@ -1,0 +1,18 @@
+server:
+  port: 1299
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: aigou-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jiangpeng9/aigou1010.git  #git文件地址
+          username: jiangpeng9
+          password: jiang15348236551
