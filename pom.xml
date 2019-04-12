@@ -14,6 +14,9 @@
         <module>aigou-plat-parent</module>
         <module>aigou-config-server-1299</module>
         <module>aigou-zuul-server-9527</module>
+        <module>aigou-mp-generator</module>
+        <module>aigou-product-parent</module>
+        <module>aigou-common-parent</module>
     </modules>
 
     <properties>

@@ -7,22 +7,36 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="aigou-basic-util" />
+        <module name="aigou-common-interface" />
+        <module name="aigou-common-service" />
+        <module name="aigou-common-service-8022" />
         <module name="aigou-config-server-1299" />
         <module name="aigou-eureka-server-7001" />
+        <module name="aigou-mp-generator" />
         <module name="aigou-plat-interface" />
         <module name="aigou-plat-service-provider-8001" />
+        <module name="aigou-product-interface" />
+        <module name="aigou-product-service-8012" />
         <module name="aigou-zuul-server-9527" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="aigou-basic-parent" target="1.8" />
       <module name="aigou-basic-util" target="1.8" />
+      <module name="aigou-common-interface" target="1.8" />
+      <module name="aigou-common-parent" target="1.8" />
+      <module name="aigou-common-service" target="1.8" />
+      <module name="aigou-common-service-8022" target="1.8" />
       <module name="aigou-config-server-1299" target="1.8" />
       <module name="aigou-eureka-server-7001" target="1.8" />
+      <module name="aigou-mp-generator" target="1.8" />
       <module name="aigou-parent" target="1.8" />
       <module name="aigou-plat-interface" target="1.8" />
       <module name="aigou-plat-parent" target="1.8" />
       <module name="aigou-plat-service-provider-8001" target="1.8" />
+      <module name="aigou-product-interface" target="1.8" />
+      <module name="aigou-product-parent" target="1.8" />
+      <module name="aigou-product-service-8012" target="1.8" />
       <module name="aigou-zuul-server-9527" target="1.8" />
     </bytecodeTargetLevel>
   </component>
